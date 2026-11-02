@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Paleta definida en Figma → utilidades: bg-base, bg-card, border-line, text-ink, text-muted, bg-accent, bg-accent-soft */
+@theme {
+  --color-base: #F8F9FA;
+  --color-card: #FFFFFF;
+  --color-line: #E5E7EB;
+  --color-ink: #0F172A;
+  --color-muted: #64748B;
+  --color-accent: #4F46E5;
+  --color-accent-soft: #EEF2FF;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { background: var(--color-base); color: var(--color-ink); }
