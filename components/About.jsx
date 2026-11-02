@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useLang } from "@/context/LanguageContext";
 
 export default function About() {
@@ -14,23 +15,24 @@ export default function About() {
             {a.title[1]}
           </h2>
           <div className="mt-6 max-w-xl space-y-5 leading-relaxed text-muted">
-            {a.paragraphs.map((p) => (
+            <p>
+              <strong className="font-semibold text-ink">{a.intro}</strong>{" "}
+              {a.paragraphs[0]}
+            </p>
+            {a.paragraphs.slice(1).map((p) => (
               <p key={p}>{p}</p>
             ))}
           </div>
         </div>
 
-        {/* Placeholder visual (reemplazar por foto/ilustración) */}
-        <div
-          aria-hidden
-          className="relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-line bg-black/[0.03] lg:aspect-[3/2]"
-          style={{
-            backgroundImage:
-              "linear-gradient(to right, var(--color-line) 1px, transparent 1px), linear-gradient(to bottom, var(--color-line) 1px, transparent 1px)",
-            backgroundSize: "20% 25%",
-          }}
-        >
-          <div className="absolute left-1/2 top-1/2 aspect-square w-2/5 -translate-x-1/2 -translate-y-1/2 rounded-full border border-line" />
+        <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-line lg:aspect-[3/2]">
+          <Image
+            src="/images/about/about-image.jpg"
+            alt="Alberto"
+            fill
+            sizes="(min-width:1024px) 50vw, 100vw"
+            className="object-cover"
+          />
         </div>
       </div>
     </section>

@@ -32,13 +32,14 @@ export const content = {
         { key: "uiux", label: "UX/UI" },
         { key: "dev", label: "Development" },
       ],
-      cta: "View Case Study",
+      cta: "View Project",
     },
     about: {
       title: ["Interface design and", "web development."],
+      intro: "I'm Alberto, a UX/UI designer and frontend developer.",
       paragraphs: [
-        "I'm Alberto, a UX/UI designer and frontend developer. My work combines visual analysis, content clarity, and code.",
-        "I support projects from the initial idea through launch: from interface structure and copywriting to development with WordPress, JavaScript, React, TypeScript, and SQL databases.",
+        "My work combines visual analysis, content clarity, and code.",
+        "I support projects from the initial structure through launch, working with public and municipal initiatives as well as tech startups. My process spans interface design, UX writing, and development with WordPress and JavaScript ecosystems (React, TypeScript).",
       ],
     },
     skills: {
@@ -79,13 +80,14 @@ export const content = {
         { key: "uiux", label: "UX/UI" },
         { key: "dev", label: "Desarrollo" },
       ],
-      cta: "Ver caso de estudio",
+      cta: "Ver proyecto",
     },
     about: {
       title: ["Diseño de interfaces y", "desarrollo web."],
+      intro: "Soy Alberto, diseñador UX/UI y desarrollador frontend.",
       paragraphs: [
-        "Soy Alberto, diseñador UX/UI y desarrollador frontend. Mi trabajo combina el análisis visual, la claridad del contenido y el código.",
-        "Acompaño proyectos desde la idea inicial hasta la puesta en marcha: desde la estructura de la interfaz y la redacción, hasta el desarrollo con WordPress, JavaScript, React, TypeScript y bases de datos SQL.",
+        "Mi trabajo combina el análisis visual, la claridad del contenido y el código.",
+        "Acompaño proyectos desde la estructura inicial hasta la puesta en marcha, trabajando tanto en iniciativas públicas y municipales como en startups tecnológicas. Mi proceso abarca el diseño de interfaces, la redacción UX y el desarrollo con WordPress y ecosistemas JavaScript (React, TypeScript).",
       ],
     },
     skills: {
