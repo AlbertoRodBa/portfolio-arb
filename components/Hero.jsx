@@ -21,7 +21,7 @@ export default function Hero() {
           <p className="max-w-xl text-lg leading-relaxed text-muted sm:text-xl">{h.subtitle}</p>
 
           <div className="flex flex-col gap-3 sm:flex-row">
-            <a href="#work" className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-5 py-3.5 text-sm font-medium text-white transition-colors hover:bg-indigo-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
+            <a href="#work" className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent-solid px-5 py-3.5 text-sm font-medium text-white transition-colors hover:bg-accent-solid-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
               {h.primary} <ArrowDown size={16} />
             </a>
             <a href="#contact" className="inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-card px-5 py-3.5 text-sm font-medium transition-colors hover:border-muted focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">

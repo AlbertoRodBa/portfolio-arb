@@ -2,28 +2,34 @@
 export const projects = [
   {
     id: "prc-quintero",
-    href: "/projects/prc-quintero",
+    href: "https://prcquintero.participayplanifica.cl/",
     categories: ["uiux"],
     image: "/images/projects/thu-prc-quintero.jpg",
     tint: "#E4E6EF",
-    tags: { en: ["UX/UI", "Accessibility"], es: ["UX/UI", "Accesibilidad"] },
+    tags: {
+      en: ["UX/UI Design", "WordPress", "Content Management"],
+      es: ["Diseño UX/UI", "WordPress", "Gestión de Contenidos"],
+    },
     title: { en: "PRC Quintero", es: "PRC Quintero" },
     description: {
-      en: "An accessible urban-planning platform that makes territorial information easier to explore and understand.",
-      es: "Una plataforma accesible de planificación urbana que facilita explorar y entender la información del territorio.",
+      en: "Designed and built an accessible urban-planning website in WordPress, structuring digital content and information architecture to make territorial data easy to explore.",
+      es: "Diseñé y desarrollé un sitio web accesible de planificación urbana en WordPress, estructurando la arquitectura de información y los contenidos digitales para facilitar el acceso ciudadano.",
     },
   },
   {
     id: "pladeco-cerrillos",
-    href: "/projects/pladeco-cerrillos",
+    href: "https://pladecocerrillos.participayplanifica.cl/",
     categories: ["uiux", "dev"],
     image: "/images/projects/thu-pladeco-cerrillosv2.jpg",
     tint: "#EDEBE6",
-    tags: { en: ["UI Design", "WordPress"], es: ["Diseño UI", "WordPress"] },
+    tags: {
+      en: ["UX/UI Design", "WordPress", "Content Management"],
+      es: ["Diseño UX/UI", "WordPress", "Gestión de Contenidos"],
+    },
     title: { en: "PLADECO Cerrillos", es: "PLADECO Cerrillos" },
     description: {
-      en: "A community platform connecting residents with local development plans and opportunities to participate.",
-      es: "Una plataforma comunitaria que conecta a los vecinos con los planes de desarrollo local y oportunidades de participación.",
+      en: "Designed and built an accessible WordPress website for local development, managing digital content and information architecture to keep residents connected with municipal initiatives and participation tools.",
+      es: "Diseñé y desarrollé un sitio web accesible en WordPress para el desarrollo local, gestionando la arquitectura de información y contenidos digitales para conectar a la comunidad con las iniciativas y herramientas de participación municipal.",
     },
   },
   {

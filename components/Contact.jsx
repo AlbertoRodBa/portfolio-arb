@@ -17,7 +17,7 @@ export default function Contact() {
   };
 
   return (
-    <footer id="contact" className="bg-black/[0.03]">
+    <footer id="contact" className="bg-section">
       <div className="mx-auto max-w-7xl px-5 pt-14 sm:px-8 sm:pt-20 lg:px-12">
         <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
           <h2 className="max-w-md text-4xl font-medium leading-tight tracking-tight sm:text-5xl">

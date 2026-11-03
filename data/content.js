@@ -17,16 +17,20 @@ export const content = {
       { label: "Contact", href: "#contact" },
     ],
     menu: "Menu",
+    theme: {
+      toDark: "Switch to dark mode",
+      toLight: "Switch to light mode",
+    },
     hero: {
       available: "Available for new projects",
       title: "UX/UI Designer & Developer.",
       subtitle:
-        "Accessible interface design and frontend development, from user flows to code for well-crafted websites.",
+        "Web design and development, specializing in institutional projects, UX/UI, and frontend development.",
       primary: "View Projects",
       secondary: "Get in Touch",
     },
     projects: {
-      title: "Featured Projects",
+      title: "My Projects",
       filters: [
         { key: "all", label: "All" },
         { key: "uiux", label: "UX/UI" },
@@ -65,16 +69,20 @@ export const content = {
       { label: "Contacto", href: "#contact" },
     ],
     menu: "Menú",
+    theme: {
+      toDark: "Activar modo oscuro",
+      toLight: "Activar modo claro",
+    },
     hero: {
       available: "Disponible para nuevos proyectos",
       title: "Diseñador UX/UI y Desarrollador.",
       subtitle:
-        "Diseño de interfaces accesibles y desarrollo frontend, de los flujos de usuario al código para sitios bien construidos.",
+        "Diseño y desarrollo web, especializado en proyectos institucionales, diseño UX/UI y ejecución frontend.",
       primary: "Ver proyectos",
       secondary: "Contactar",
     },
     projects: {
-      title: "Proyectos destacados",
+      title: "Mis proyectos",
       filters: [
         { key: "all", label: "Todos" },
         { key: "uiux", label: "UX/UI" },

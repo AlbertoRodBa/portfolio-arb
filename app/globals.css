@@ -4,12 +4,31 @@
 @theme {
   --color-base: #F8F9FA;
   --color-card: #FFFFFF;
+  --color-section: #F1F3F5;
   --color-line: #E5E7EB;
   --color-ink: #0F172A;
   --color-muted: #64748B;
   --color-accent: #4F46E5;
+  --color-accent-hover: #3730A3;
+  --color-accent-solid: #4F46E5;
+  --color-accent-solid-hover: #4338CA;
   --color-accent-soft: #EEF2FF;
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-base: #111827;
+  --color-card: #1B2432;
+  --color-section: #0D1522;
+  --color-line: #334155;
+  --color-ink: #E5E7EB;
+  --color-muted: #A0AEC0;
+  --color-accent: #A5B4FC;
+  --color-accent-hover: #C7D2FE;
+  --color-accent-solid: #4338CA;
+  --color-accent-solid-hover: #3730A3;
+  --color-accent-soft: #29354B;
 }
 
 html { scroll-behavior: smooth; scroll-padding-top: 5rem; }

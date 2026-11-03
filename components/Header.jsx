@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import { useLang } from "@/context/LanguageContext";
 import { site } from "@/data/content";
 import LanguageToggle from "./LanguageToggle";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   const { t } = useLang();
@@ -21,11 +22,13 @@ export default function Header() {
             <a key={n.href} href={n.href} className={link}>{n.label}</a>
           ))}
           <LanguageToggle />
+          <ThemeToggle />
         </nav>
 
         {/* Móvil */}
         <div className="flex items-center gap-4 md:hidden">
           <LanguageToggle />
+          <ThemeToggle />
           <button
             type="button"
             onClick={() => setOpen((v) => !v)}
