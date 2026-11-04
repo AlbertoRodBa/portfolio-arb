@@ -19,7 +19,7 @@ export const projects = [
   {
     id: "pladeco-cerrillos",
     href: "https://pladecocerrillos.participayplanifica.cl/",
-    categories: ["uiux", "dev"],
+    categories: ["uiux"],
     image: "/images/projects/thu-pladeco-cerrillosv2.jpg",
     tint: "#EDEBE6",
     tags: {
@@ -35,7 +35,7 @@ export const projects = [
   {
     id: "saas-form",
     href: "/projects/saas-form-optimization",
-    categories: ["uiux"],
+    categories: ["uiux", "dev"],
     image: null,
     tint: "#E8E9EF",
     tags: { en: ["UX Research", "UI Design"], es: ["Investigación UX", "Diseño UI"] },

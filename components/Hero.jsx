@@ -1,5 +1,5 @@
 "use client";
-import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { ArrowDown, Mail } from "lucide-react";
 import { useLang } from "@/context/LanguageContext";
 
 export default function Hero() {
@@ -25,7 +25,7 @@ export default function Hero() {
               {h.primary} <ArrowDown size={16} />
             </a>
             <a href="#contact" className="inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-card px-5 py-3.5 text-sm font-medium transition-colors hover:border-muted focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent">
-              {h.secondary} <ArrowUpRight size={16} />
+              {h.secondary} <Mail size={16} aria-hidden />
             </a>
           </div>
         </div>

@@ -22,7 +22,7 @@ export default function Skills() {
                 </h3>
                 <ul className="mt-5 space-y-3 text-sm text-muted">
                   {g.items.map((i) => (
-                    <li key={i}>{i}</li>
+                    <li key={i} className="transition-colors hover:text-ink">{i}</li>
                   ))}
                 </ul>
               </div>

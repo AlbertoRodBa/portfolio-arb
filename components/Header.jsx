@@ -9,7 +9,7 @@ import ThemeToggle from "./ThemeToggle";
 export default function Header() {
   const { t } = useLang();
   const [open, setOpen] = useState(false);
-  const link = "text-sm text-muted hover:text-ink transition-colors";
+  const link = "nav-menu-link text-sm transition-colors";
 
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-base/90 backdrop-blur">
@@ -19,7 +19,9 @@ export default function Header() {
         {/* Escritorio */}
         <nav className="hidden items-center gap-8 md:flex" aria-label="Main">
           {t.nav.map((n) => (
-            <a key={n.href} href={n.href} className={link}>{n.label}</a>
+            <a key={n.href} href={n.href} className={link}>
+              <span className="nav-link-underline">{n.label}</span>
+            </a>
           ))}
           <LanguageToggle />
           <ThemeToggle />
@@ -48,7 +50,7 @@ export default function Header() {
             {t.nav.map((n) => (
               <li key={n.href}>
                 <a href={n.href} onClick={() => setOpen(false)} className={`${link} block py-3 text-base`}>
-                  {n.label}
+                  <span className="nav-link-underline">{n.label}</span>
                 </a>
               </li>
             ))}

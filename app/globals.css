@@ -34,3 +34,43 @@
 html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body { background: var(--color-base); color: var(--color-ink); }
+
+.nav-menu-link {
+  color: color-mix(in srgb, var(--color-muted), var(--color-ink) 18%);
+}
+
+.nav-menu-link:hover,
+.nav-menu-link:focus-visible {
+  color: var(--color-ink);
+}
+
+:root[data-theme="dark"] .nav-menu-link {
+  color: color-mix(in srgb, var(--color-muted), var(--color-base) 18%);
+}
+
+.nav-link-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-link-underline::after {
+  position: absolute;
+  right: 0;
+  bottom: 0.05em;
+  left: 0;
+  height: 1px;
+  background: currentColor;
+  content: "";
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 200ms ease;
+}
+
+a:hover .nav-link-underline::after,
+a:focus-visible .nav-link-underline::after {
+  transform: scaleX(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-link-underline::after { transition: none; }
+}
