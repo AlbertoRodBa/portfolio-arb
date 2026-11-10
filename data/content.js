@@ -50,8 +50,8 @@ export const content = {
       title: "Skills & Tools",
       groups: [
         { icon: "uiux", title: "UX/UI", items: ["UX Research", "Information Architecture", "Wireframing", "UX Writing", "WCAG Accessibility"] },
-        { icon: "dev", title: "Development", items: ["JavaScript", "React", "Node.js", "Express", "MySQL", "HTML5/CSS3", "WordPress"] },
-        { icon: "tools", title: "Tools", items: ["Figma", "Git/GitHub", "Vercel", "XAMPP", "Elementor"] },
+        { icon: "dev", title: "Development", items: ["JavaScript", "TypeScript", "React", "Next.js", "Express", "MySQL", "HTML5/CSS3", "WordPress"] },
+        { icon: "tools", title: "Tools", items: ["Figma", "Git/GitHub", "Vercel", "XAMPP", "Elementor", "Adobe Creative Suite"] },
       ],
     },
     contact: {

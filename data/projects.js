@@ -33,16 +33,20 @@ export const projects = [
     },
   },
   {
-    id: "saas-form",
-    href: "/projects/saas-form-optimization",
-    categories: ["uiux", "dev"],
-    image: null,
+    id: "casalto",
+    href: "https://casalto.vercel.app/",
+    categories: ["uiux"],
+    image: "/images/projects/thu-casalto2.png",
     tint: "#E8E9EF",
     tags: { en: ["UX Research", "UI Design"], es: ["Investigación UX", "Diseño UI"] },
-    title: { en: "SaaS Form Optimization (NDA)", es: "Optimización de formularios SaaS (NDA)" },
+    title: { en: "Casalto: Arriendo de propiedades", es: "Casalto" },
     description: {
-      en: "Reducing friction in multi-step forms through clearer information, thoughtful guidance and accessible UI.",
-      es: "Reducción de fricción en formularios de varios pasos con información más clara, guía cuidada y una UI accesible.",
+      en: "UX research and UI design for Casalto, a web application for rental management.",
+      es: "Investigación UX y diseño UI para Casalto, una aplicación web de administración de arriendos.",
+    },
+    secondaryDescription: {
+      en: "Research informed a clear interface for organizing and managing rentals with ease.",
+      es: "La investigación orientó el diseño de una interfaz clara para organizar y gestionar arriendos fácilmente.",
     },
   },
 ];

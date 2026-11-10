@@ -20,7 +20,10 @@ export default function ProjectCard({ project }) {
       <div className="flex flex-1 flex-col p-5 sm:p-6">
         <p className="text-xs text-muted">{project.tags[lang].join(" • ")}</p>
         <h3 className="mt-3 text-xl font-medium tracking-tight">{title}</h3>
-        <p className="mt-6 flex-1 text-sm leading-relaxed text-muted">{project.description[lang]}</p>
+        <div className="mt-6 flex-1 space-y-3 text-sm leading-relaxed text-muted">
+          <p>{project.description[lang]}</p>
+          {project.secondaryDescription?.[lang] && <p>{project.secondaryDescription[lang]}</p>}
+        </div>
 
         <Link
           href={project.href}
